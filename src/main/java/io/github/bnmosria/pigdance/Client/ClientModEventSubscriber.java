@@ -20,5 +20,4 @@ public final class ClientModEventSubscriber {
 		RenderingRegistry.registerEntityRenderingHandler(EntityTypes.DANCING_PIG.get(), DancingPigRenderer::new);
 		LOGGER.debug("Registered Entity Renderers");
 	}
-
 }
